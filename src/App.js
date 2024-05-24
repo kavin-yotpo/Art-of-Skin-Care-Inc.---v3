@@ -50,7 +50,7 @@ function App() {
           <QA
             instanceid={InstanceId_QA}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -86,7 +86,7 @@ function App() {
           <StarRating
             instanceid={InstanceId_StarRating}
             productid={ProductId}
-            active="false"
+            active="true"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
